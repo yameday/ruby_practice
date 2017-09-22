@@ -1,3 +1,6 @@
+#n 是否為 2的次方      #
+
+
 def n2(n)
   if n==1
     return true
@@ -18,6 +21,6 @@ end
 
 
 puts n2(0)
+puts n2(-15)
 puts n2(1)
-puts n2(-3)
-puts n2(16)
+puts n2(32)
